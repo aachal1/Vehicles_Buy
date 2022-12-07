@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:login_signup/Common/dummy_data/category_model.dart';
 
+// ignore: must_be_immutable
 class TabbarContentWidget extends StatelessWidget {
   List<CategoryModel> list;
   TabbarContentWidget(this.list);

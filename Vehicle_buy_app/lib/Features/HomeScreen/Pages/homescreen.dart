@@ -133,25 +133,17 @@ class _HomeScreenState extends State<HomeScreen> {
                 TabbarContentWidget(DummyData.carList),
                 TabbarContentWidget(DummyData.motorbikeList),
                 Container(
-                  width: 50,
-                  height: 50,
                   decoration:
                       BoxDecoration(color: Color.fromARGB(255, 53, 56, 53)),
                 ),
                 Container(
-                  width: 50,
-                  height: 50,
                   decoration: BoxDecoration(color: Colors.green),
                 ),
                 Container(
-                  width: 50,
-                  height: 50,
                   decoration:
                       BoxDecoration(color: Color.fromARGB(255, 76, 175, 152)),
                 ),
                 Container(
-                  width: 50,
-                  height: 50,
                   decoration:
                       BoxDecoration(color: Color.fromARGB(255, 127, 76, 175)),
                 )

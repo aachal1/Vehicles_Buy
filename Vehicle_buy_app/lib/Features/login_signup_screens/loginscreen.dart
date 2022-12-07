@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:login_signup/Common/routes.dart';
-import 'package:login_signup/Features/HomeScreen/Pages/homescreen.dart';
 import 'package:shadow_overlay/shadow_overlay.dart';
 
 class LoginScreen extends StatefulWidget {
