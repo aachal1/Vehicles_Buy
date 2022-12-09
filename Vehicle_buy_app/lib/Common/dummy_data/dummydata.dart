@@ -2,18 +2,18 @@ import 'package:login_signup/Common/dummy_data/category_model.dart';
 
 class DummyData {
   static List<CategoryModel> carList = [
-    CategoryModel('name', 5000, car1, 'description'),
-    CategoryModel('name', 5000, car3, 'description'),
-    CategoryModel('name', 5000, car2, 'description'),
-    CategoryModel('name', 5000, car1, 'description'),
+    CategoryModel('Desdamona', 5000, car1, 'description'),
+    CategoryModel('Eleanor', 5000, car3, 'description'),
+    CategoryModel('Terminator', 5000, car2, 'description'),
+    CategoryModel('Indestructible', 5000, car1, 'description'),
+    CategoryModel('Brum', 5000, car4, 'description'),
+    CategoryModel('Bumblebee', 5000, car2, 'description'),
+    CategoryModel('Oatmeal', 5000, car2, 'description'),
+    CategoryModel('Party Wagon', 5000, car1, 'description'),
+    CategoryModel('Bessie', 5000, car3, 'description'),
+    CategoryModel('Battle Shell', 5000, car2, 'description'),
     CategoryModel('name', 5000, car4, 'description'),
-    CategoryModel('name', 5000, car2, 'description'),
-    CategoryModel('name', 5000, car2, 'description'),
-    CategoryModel('name', 5000, car1, 'description'),
-    CategoryModel('name', 5000, car3, 'description'),
-    CategoryModel('name', 5000, car2, 'description'),
-    CategoryModel('name', 5000, car4, 'description'),
-    CategoryModel('name', 5000, car1, 'description'),
+    CategoryModel('The Beast', 5000, car1, 'description'),
   ];
   static List<CategoryModel> motorbikeList = [
     CategoryModel('name', 5000, motor1, 'description'),
