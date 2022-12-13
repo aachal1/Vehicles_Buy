@@ -8,8 +8,8 @@ class NotificationScreen extends StatelessWidget {
     return Scaffold(
       body: Center(
           child: Text(
-        'notification',
-        style: TextStyle(color: Colors.black),
+        'No notifications for now',
+        style: TextStyle(color: Color.fromARGB(255, 255, 255, 255)),
       )),
     );
   }

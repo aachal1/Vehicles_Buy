@@ -1,6 +1,6 @@
 class CategoryModel {
   final String name;
-  final num price;
+  final String price;
   final String image;
   final String description;
 

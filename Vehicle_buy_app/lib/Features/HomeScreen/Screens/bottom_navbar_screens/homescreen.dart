@@ -2,9 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:figma_squircle/figma_squircle.dart';
 import 'package:login_signup/Common/constants.dart';
 import 'package:login_signup/Common/dummy_data/dummydata.dart';
-import 'package:login_signup/Features/HomeScreen/Widgets/bottom_navbar.dart';
 import 'package:login_signup/Features/HomeScreen/Widgets/open_drawer_widget.dart';
 import 'package:login_signup/Features/HomeScreen/Widgets/tabbar_content_widget.dart';
+import 'favourite_screen.dart';
+import 'notification_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -12,6 +13,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  List pages = [HomeScreen(), FavouriteScreen(), NotificationScreen()];
   @override
   Widget build(BuildContext context) {
     final screenHeight = MediaQuery.of(context).size.height;
@@ -20,9 +22,6 @@ class _HomeScreenState extends State<HomeScreen> {
     return DefaultTabController(
       length: 6,
       child: Scaffold(
-        extendBody: true,
-        resizeToAvoidBottomInset: false,
-        bottomNavigationBar: BottomNavbar(),
         drawer: OpenDrawerWidget(),
         appBar: AppBar(
           leading: Builder(

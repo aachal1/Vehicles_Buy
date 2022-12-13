@@ -179,7 +179,7 @@ class _LoginScreenState extends State<LoginScreen> {
                     right: 0,
                     child: GestureDetector(
                       onTap: () {
-                        Get.toNamed(Routes.getHomeRoute()); //routing
+                        Get.toNamed(Routes.getbottomNavbarRoute()); //routing
                       },
                       child: Row(children: [
                         Text(

@@ -2,7 +2,8 @@ import 'package:get/get.dart';
 import 'package:login_signup/Features/HomeScreen/Screens/bottom_navbar_screens/favourite_screen.dart';
 import 'package:login_signup/Features/HomeScreen/Screens/bottom_navbar_screens/notification_screen.dart';
 import 'package:login_signup/Features/HomeScreen/Screens/detailscreen_tabbar.dart';
-import 'package:login_signup/Features/HomeScreen/Screens/homescreen.dart';
+import 'package:login_signup/Features/HomeScreen/Screens/bottom_navbar_screens/homescreen.dart';
+import 'package:login_signup/Features/HomeScreen/Screens/bottom_navbar_mainscreen.dart';
 import '../Features/login_signup_screens/loginscreen.dart';
 import '../Features/login_signup_screens/signupscreen.dart';
 
@@ -11,6 +12,7 @@ class Routes {
   static String signup = '/signup';
   static String home = '/home';
   static String detailscreen_tabbar = '/detailscreen_tabbar';
+  static String bottom_navbar = '/bottom_navbar';
   static String favourite_screen = '/favourite_screen';
   static String notification_screen = '/notification_screen';
 
@@ -18,6 +20,7 @@ class Routes {
   static String getSignUpRoute() => signup;
   static String getHomeRoute() => home;
   static String getDetailRoute() => detailscreen_tabbar;
+  static String getbottomNavbarRoute() => bottom_navbar;
   static String getfavouriteScreenRoute() => favourite_screen;
   static String getnotificationScreenRoute() => notification_screen;
 
@@ -37,6 +40,10 @@ class Routes {
     GetPage(
       name: detailscreen_tabbar,
       page: () => DetailScreenTabBar(),
+    ),
+    GetPage(
+      name: bottom_navbar,
+      page: () => BottomNavbar(),
     ),
     GetPage(
       name: favourite_screen,
